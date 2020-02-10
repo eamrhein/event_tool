@@ -85,10 +85,11 @@ Here's a blank template to get started:
 
 ### Built With
 
-* []()
-* []()
-* []()
-
+* [Mongodb](https://www.mongodb.com/)
+* [Express](https://expressjs.com/)
+* [React](https://reactjs.org/)
+* [Redux](https://redux.js.org/)
+* [Node.js](https://nodejs.org/en/)
 
 
 <!-- GETTING STARTED -->

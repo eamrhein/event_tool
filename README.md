@@ -37,10 +37,10 @@
     <img src="images/logo_size.jpg" alt="Logo" width="480" height="80">
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">event_tool</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    A tool to create and organize eventbrite events.
     <br />
     <a href="https://github.com/eamrhein/event_tool"><strong>Explore the docs »</strong></a>
     <br />

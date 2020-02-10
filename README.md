@@ -182,4 +182,4 @@ Project Link: [https://github.com/github_username/repo](https://github.com/githu
 [license-url]: https://github.com/eamrhein/event_tool/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/eamrhein
-[product-screenshot]: /images/Homepage.png
+[product-screenshot]: images/Homepage.png

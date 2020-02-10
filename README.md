@@ -1,27 +1,3 @@
-<!--
-*** Thanks for checking out this README Template. If you have a suggestion that would
-*** make this better, please fork the repo and create a pull request or simply open
-*** an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo, twitter_handle, email
--->
-
-
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -42,10 +18,10 @@
   <p align="center">
     A tool to create and organize eventbrite events.
     <br />
-    <a href="https://github.com/eamrhein/event_tool"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/eamrhein/event_tool/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/eamrhein/event_tool">View Demo</a>
+<!--     <a href="https://github.com/eamrhein/event_tool">View Demo</a> -->
     ·
     <a href="https://github.com/eamrhein/event_tool/issues">Report Bug</a>
     ·
@@ -93,24 +69,22 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+Node Package Manager
 
 ### Installation
  
 1. Clone the repo
 ```sh
-git clone https://github.com/github_username/repo.git
+git clone https://github.com/eamrhein/event_tool.git
 ```
 2. Install NPM packages
 ```sh
 npm install
 ```
-
-
+3. Run Project
+```sh
+npm run dev
+```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -145,28 +119,6 @@ Contributions are what make the open source community such an amazing place to b
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo](https://github.com/github_username/repo)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

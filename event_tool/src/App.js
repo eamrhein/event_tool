@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "css-reset-and-normalize";
+import "react-big-calendar/lib/css/react-big-calendar.css";
+import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+import { apikey } from "./apiKey";
+import EventTool from "./EventTool";
 
+function Login() {
+  let url = `https://www.eventbrite.com/oauth/authorize?response_type=token&client_id=${apikey}&redirect_uri=http://localhost:3000/event/`;
+  return (
+    <div>
+      <a href={url}>Login</a>
+    </div>
+  );
+}
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Route exact path="/event" component={EventTool} />
+      <Route path="/" component={Login} />
+    </BrowserRouter>
   );
 }
 
